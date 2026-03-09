@@ -12,7 +12,7 @@ h3{
 }
 
 .header_container{
-    background: #152D54;
+    background: #121212;
     color: white;
     height: 60px;
 }
@@ -32,12 +32,12 @@ h3{
     margin-left: 1%;
     padding-top: 0px;
     padding-bottom: 10px;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .text_center{
     text-align: center;
-    background-color: #0D3856;
+    background-color: #1c1c1c;
     padding-top: 30px;
     padding-bottom: 30px;
     white-space: normal;
@@ -57,6 +57,17 @@ header{
     height: 40px;
     padding-top: 10px;
     padding-left: 20px;
+}
+
+.blackfire_container{
+    background: url('../images/blackfire.jpg');
+    background-size: cover;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    color: white;
+    position: relative;
 }
 
 .banner_container{
