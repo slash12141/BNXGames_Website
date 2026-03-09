@@ -1,22 +1,38 @@
 body{
-    background:white;
-    margin: 0;
+    background-color:#0D0C0C;
+    margin: 0 15%;
+}
+
+@media (max-width: 768px) {
+    body {
+        margin: 0 2%;
+    }
 }
 
 p{
     line-height: 18px;
     margin-top: 0px;
+    color: #9F9393;
 }
 
-h3{
+h1{
     line-height: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
+    color: #ffffff;
+}
+
+h2{
+    line-height: 0px;
+    margin-bottom: 14px;
+    color: #E7E4E4;
 }
 
 .header_container{
-    background: #121212;
+    /* background: #151515; */
     color: white;
     height: 60px;
+    /* margin-left: 0; */
+    /* padding-left: 0; */
 }
 
 .header_container ul{
@@ -30,19 +46,30 @@ h3{
 }
 
 .footer_container{
+    /* background: #151515; */
     text-align: center;
-    margin-left: 1%;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px;
     font-size: 12px;
 }
 
 .text_center{
     text-align: center;
-    background-color: #1c1c1c;
+    background-color: #131111;
     padding-top: 12px;
     padding-bottom: 12px;
     line-height: 1px;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.text_left{
+    text-align: left;
+    /* background-color: #131111; */
+    padding-top: 12px;
+    padding-bottom: 12px;
+    line-height: 2px;
     white-space: normal;
     word-wrap: break-word;
     word-break: normal;
@@ -59,7 +86,7 @@ header{
     width: 315.8 / 2px;
     height: 40px;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 0;
 }
 
 .blackfire_container{
@@ -95,4 +122,8 @@ header{
     width: 150px;
 }
 
-
+.line{
+    border: 0; 
+    border-top: 8px solid #0D0C0C;
+    margin: 0px;
+}
